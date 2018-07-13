@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Weather search app">
+    <title>Jacks Sick Weather App</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Righteous" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Jacks super awesome weather app</h1>
+        <div class="search-bar-container">
+            <label for="search">
+                City Name:
+                <input id="search-input" type="search">
+            </label>
+            <button id="search-button">Search</button>
+        </div>
+        <span id="error-message"></span>
+        <div style="display: none;" class="weather-info-container">
+            <h2 id="weather-title"></h2>
+            <span id="weather-icon"></span>
+            <span id="temperature"></span>
+            <span id="cloud-coverage"></span>
+            <span id="humidity"></span>
+        </div>
+        <div id="spinner"></div>
+    </div>
+</body>
+
+</html>
