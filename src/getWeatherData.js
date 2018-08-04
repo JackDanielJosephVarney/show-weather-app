@@ -1,6 +1,6 @@
 import { isoCountries } from './countryISOCodes';
 
-const url = `https://api.openweathermap.org/data/2.5/weather?APPID=${process.env.APIKEY}`;
+const url = `https://api.openweathermap.org/data/2.5/weather?APPID=${console.log(process.env.APIKEY) || process.env.APIKEY}`;
 
 const convertResponse = res =>
   res.cod === '404'
